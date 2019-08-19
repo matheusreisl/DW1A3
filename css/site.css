@@ -1,0 +1,19 @@
+h1{
+    color: aliceblue;
+    background-color: black;
+}
+
+h2{
+    color: aliceblue;
+    background-color: rgb(105, 105, 105);
+}
+
+p {
+ text-align: justify
+}
+
+img.centralizado{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
