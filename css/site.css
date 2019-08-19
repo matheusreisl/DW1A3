@@ -1,15 +1,18 @@
 h1{
     color: aliceblue;
     background-color: black;
+    text-align: center;
 }
 
 h2{
     color: aliceblue;
     background-color: rgb(105, 105, 105);
+    text-align: center;
 }
 
 p {
- text-align: justify
+ text-align: justify;
+
 }
 
 img.centralizado{
