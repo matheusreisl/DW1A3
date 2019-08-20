@@ -12,7 +12,10 @@ h2{
 
 p {
  text-align: justify;
+}
 
+p.centralizado{
+    text-align: center;
 }
 
 img.centralizado{
