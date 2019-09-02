@@ -12,35 +12,169 @@ html {
   ol, ul {
     list-style: none;
   }
-  
-h1{
-    color: aliceblue;
-    background-color: black;
+/**===========================**/
+
+/**FONT**/
+:root{
+    font-size: 28px;
+}
+
+body {
+    font-family: 'Space Mono', monospace; 
+}
+
+h1 {
+    font-family: 'Aref Ruqaa', serif;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+/**===========================**/
+
+/*MAIN HEADER*/
+.main-header {
+    position: relative;
+    background: rgb(112, 102, 82) url(../imagens/camuflage.jpg);
+    height: 16rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:3.5rem;
+    padding: 0 1rem;
+    background: rgb(136, 123, 98);
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.main-header-name {
+    color: #FFF;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main-header-name span {
+    color: rgb(71, 63, 46);
+}
+
+.main-header-menu {
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+.main-header-menu li {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.main-header-menu a {
+    color: #FFF;
+    font-size: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-header-headline {
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    width: 16rem;
+    font-size: 2.5rem;
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: 0px 0.25rem 1.25rem rgba(0, 0, 0, 0.0.5);
+}
+/**===========================**/
+
+/*SECTIONS*/
+.section {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+    padding: 3rem 2rem;
 }
 
-h2{
-    color: aliceblue;
-    background-color: rgb(105, 105, 105);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+.section-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-p {
- text-align: justify;
- font-family: 'Times New Roman', Times, serif
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: space-around;
 }
 
-p.centralizado{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif
+.section-about {
+    background-color: rgb(136, 123, 98);
 }
 
-div.centralizado{
-    text-align: center;
+.section-about .section-heading {
+    color: #FFF;
 }
 
-body{
-    background-color: rgb(192, 192, 192)
+.section-about .section-content {
+    color: #FFF;
 }
+
+.section-work .section-heading {
+    color: rgb(136, 123, 98);;
+}
+
+.section-work {
+    background-color: #FFF;
+}
+
+.section-work .section-content {
+    color: rgb(136, 123, 98);
+}
+
+.section-experience {
+    background-color: rgb(136, 123, 98);
+}
+
+.section-experience .section-heading {
+    color: #FFF;
+}
+
+.section-experience .section-content {
+    color: #FFF;
+}
+
+.section-me .section-heading {
+    color: rgb(136, 123, 98);;
+}
+
+.section-me {
+    background-color: #FFF;
+}
+
+.section-me .section-content {
+    color: rgb(136, 123, 98);
+}
+/**===========================**/
+
+/**ME**/
+.me {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+}
+/**===========================**/
+
+/**FONTS
+font-family: 'Press Start 2P', cursive;
+font-family: 'Space Mono', monospace;
+font-family: 'Aref Ruqaa', serif;
+**/
