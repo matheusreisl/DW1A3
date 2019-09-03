@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 21, 21);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
