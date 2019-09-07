@@ -1,4 +1,4 @@
-/**Reset**/
+/**RESET**/
 html {
     box-sizing: border-box;
     }
@@ -21,6 +21,7 @@ html {
     border-bottom-color: rgb(206, 177, 84);
     border-bottom-style: solid;
 }
+
 h1 {
     color: rgb(255, 255, 255);
     background-color: rgb(119, 88, 4);
@@ -75,3 +76,23 @@ div {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/**NAVBAR**/
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-itens {
+    display: flex;
+}
+
+.navbar-itens li {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+/**================================**/
