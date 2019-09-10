@@ -104,6 +104,25 @@ div {
     margin-top: 20px;
     font-weight: bold;
 }
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url("../imagens/github.png");
+}
+
+.twitter {
+    background-image: url("../imagens/twitter.png");
+}
+
+.linkedin {
+    background-image: url("../imagens/linkedin.png");
+}
 /**================================**/
 
 /**FONTS
