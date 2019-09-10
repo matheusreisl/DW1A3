@@ -67,9 +67,22 @@ aside h1{
     font-size: 20px;
 }
 
+header {
+    grid-area: hd;
+}
+
+nav {
+    grid-area: nv;
+}
+
+main {
+    grid-area: main;
+}
+
 footer {
     background-color: black;
     padding: 20px;
+    grid-area: ft;
 }
 
 footer p {
@@ -84,6 +97,17 @@ div {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/**GRID**/
+.grid-container {
+    display: grid;
+    grid-template-areas: "hd hd"
+                         "main nv"
+                         "ft ft";
+    grid-template-rows: 7% 88% 5%;
+    grid-template-columns: 80% 20%;
+}
+/**================================**/
 
 /**NAVBAR**/
 .navbar {
