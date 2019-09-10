@@ -110,18 +110,19 @@ div {
     height: 40px;
     display: inline-block;
     text-indent: -99999px;
+
 }
 
 .github {
-    background-image: url("../imagens/github.png");
+    background-image: url('../imagens/github.png');
 }
 
 .twitter {
-    background-image: url("../imagens/twitter.png");
+    background-image: url('../imagens/twitter.png');
 }
 
 .linkedin {
-    background-image: url("../imagens/linkedin.png");
+    background-image: url('../imagens/linkedin.png');
 }
 /**================================**/
 
