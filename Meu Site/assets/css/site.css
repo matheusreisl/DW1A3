@@ -132,7 +132,7 @@ div {
 }
 
 .icones-sociais {
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -147,18 +147,18 @@ div {
 }
 
 .github {
-    background-image: #FFF url('../imagens/github.png');
-    background-repeat: no-repeat;
+    background-image: url('../imagens/github.png');
+    background-size: 40px;
 }
 
 .twitter {
-    background-image: #FFF url('../imagens/twitter.png');
-    background-repeat: no-repeat;
+    background-image: url('../imagens/twitter.png');
+    background-size: 40px;
 }
 
 .linkedin {
-    background-image: #FFF url('../imagens/linkedin.png');
-    background-repeat: no-repeat;
+    background-image:  url('../imagens/linkedin.png');
+    background-size: 40px;
 }
 /**================================**/
 
