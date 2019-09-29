@@ -1,0 +1,70 @@
+
+fieldset {
+    display: flex;
+    border: none;
+    margin-top: 20px;
+}
+
+.dados {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dados-item-input {
+    width: 650px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid rgb(206, 177, 84);
+}
+
+.icon {
+    padding: 3px 20px 6px 20px;
+    background-color: rgb(206, 177, 84);
+    color: white;
+    text-align: center;
+}
+
+.nome-icon {
+    background-image: url('../imagens/user.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.dados-icon {
+    background-image: url('../imagens/@.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.assunto {
+    flex-direction: row;
+}
+
+.assunto-input {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.mensagem-input {
+    padding: 12px 20px;
+    border: 2px solid rgb(206, 177, 84);
+    border-radius: 4px;
+    width: 700px;
+}
+
+.button {
+    background-color: rgb(119, 88, 4);
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.submit {
+    display: flex;
+    justify-content: right;
+}
