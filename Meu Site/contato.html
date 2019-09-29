@@ -18,6 +18,39 @@
     </header>
 
     <main>
+        <section>
+            <div>
+                <form name="contato" action="">
+
+                    <fieldset class="dados">
+                        <h2>Seus Dados</h2>
+                        <label for="nome">Nome completo: </label>
+                        <input type="text" id="nome" placeholder="Sorriso Ronaldo" autofocus>
+
+                        <label for=email>E-mail: </label>
+                        <input type="email" id="email" placeholder="sorriso.r@email.com" required>
+                    </fieldset>
+
+                    <fieldset class="assunto">
+                        <h2>Assunto</h2>
+                        <input type="radio" name="assunto" value="blog"> Blog
+                        <input type="radio" name="assunto" value="serviço"> Serviço
+                        <input type="radio" name="assunto" value="outro"> Outro
+                    </fieldset>
+
+                    <fieldset class="mensagem">
+                        <h2>Mensagem</h2>
+                        <div>
+                            <label for="mensagem">Mensagem: </label>
+                            <textarea id="mensagem" placeholder="Deixe a sua mensagem..." required></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="form-button">
+                        <button type="submit" name="enviar" value="enviar"> Enviar Formulário</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 
     </main>
 
