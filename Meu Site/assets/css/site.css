@@ -45,6 +45,12 @@ img {
     margin-bottom: 10px;
 }
 
+.circle {
+    border-radius: 50%;
+    width: 400px;
+    height: 300px;
+}
+
 blockquote {
     background-color: rgb(206, 177, 84);
     padding: 20px;
