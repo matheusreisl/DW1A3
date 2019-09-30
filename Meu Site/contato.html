@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato - Matheus Reis</title>
+    <link rel="icon" href="assets/imagens/icon.jpg">
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/site.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="assets/css/contato.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body class="grid-container">
+    <header>
+        <h1 id="titulo">Contato</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <form name="contato" action="">
+                    <h2>Seus Dados</h2>
+                    <fieldset class="dados">
+                        <label for="nome">
+                            <p>Nome completo: </p>
+                            <div class="dados-item">
+                                <i class="icon nome-icon"></i>
+                                <input class="dados-item-input" type="text" id="nome" placeholder="Sorriso Ronaldo"
+                                    autofocus>
+                            </div>
+                        </label>
+                        <label for=email>
+                            <p>E-mail: </p>
+                            <div class="dados-item">
+                                <i class="icon dados-icon"></i>
+                                <input class="dados-item-input" type="email" id="email"
+                                    placeholder="sorriso.r@email.com" required>
+                            </div>
+                        </label>
+                    </fieldset>
+
+                    <h2>Assunto</h2>
+                    <fieldset class="assunto">
+                        <input class="assunto-input" type="radio" name="assunto" value="blog"> Blog
+                        <input class="assunto-input" type="radio" name="assunto" value="serviço"> Serviço
+                        <input class="assunto-input" type="radio" name="assunto" value="outro"> Outro
+                    </fieldset>
+
+                    <h2>Mensagem</h2>
+                    <fieldset class="mensagem">
+                        <label for="mensagem">
+                            <p>Mensagem:</p>
+                            <div class="mensagem-item">
+                                <textarea class="mensagem-input" id="mensagem" placeholder="Deixe a sua mensagem..."
+                                    required></textarea>
+                            </div>
+                        </label>
+                    </fieldset>
+
+                    <div class="submit">
+                    <input class="button" type="submit" value="Enviar formulário">
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <h1>Matheus Reis</h1>
+        <nav class="navbar">
+            <ul class="navbar-itens">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="bio.html">Sobre Mim</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <ul class="icones-sociais">
+                <li>
+                    <a href="https://github.com/matheusreisl" class="github">
+                        Github
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/mreisluz_" class="twitter">
+                        Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/matheus-reis-luz-b26839170/" class="linkedin">
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <footer>
+        <p>&copy; Matheus Reis 2019</p>
+    </footer>
+</body>
+
+</html>
