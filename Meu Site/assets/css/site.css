@@ -206,4 +206,34 @@ thead {
     font-family: 'Roboto Slab', serif;
 */
 
+/**RESPONSIVIDADE**/
+:root {
+    font-size: 16px;
+}
 
+/**================================**/
+
+/**MEDIA QUERIES**/
+@media (max-width: 600px) {
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "hd"
+                         "nv"
+                         "main"
+                         "ft";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+#titulo {
+    font-size: 2rem;
+}
+
+main {
+    padding: 16px;
+}
+
+}
+
+/**================================**/
