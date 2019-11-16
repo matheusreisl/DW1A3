@@ -12,3 +12,5 @@ Prontuário: SP3015092.
 [Exercicio 1 - JavaScript](JavaScript/Exercicio1/saudacao.html)
 
 [Exercicio 2 - JavaScript](JavaScript/Exercicio2/formulario.html)
+
+[Exercicio 3 - JavaScript](JavaScript/Exercicio3/operacao.html)

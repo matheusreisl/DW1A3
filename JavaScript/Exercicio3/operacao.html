@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/JavaScript/Exercicio3/operacao.css" rel="stylesheet">
+    <title>Operações</title>
+</head>
+
+<body>
+    <header>
+        <h1>Operações.</h1>
+    </header>
+
+    <div class="operacao">
+        <form>
+            <label>
+                Valor A:
+                <input type="number" width="5" name="A" id="vlrA">
+            </label>
+            <label>
+                Valor B:
+                <input type="number" name="B" id="vlrB">
+            </label>
+            <input type="button" class="btn" value="Calcular" onclick="operacoes()">
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Operação</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="mais">+</td>
+                    <td id="maisResult">-</td>
+                </tr>
+                <tr>
+                    <td id="menos">-</td>
+                    <td id="menosResult">-</td>
+                </tr>
+                <tr>
+                    <td id="mult">*</td>
+                    <td id="multResult">-</td>
+                </tr>
+                <tr>
+                    <td id="div">/</td>
+                    <td id="divResult">-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="/JavaScript/Exercicio3/operacao.js"></script>
+</body>
+
+</html>
