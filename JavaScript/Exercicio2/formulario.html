@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/JavaScript/Exercicio2/formulario.css" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário.</h1>
+    </header>
+
+    <div class="formulario">
+        <form>
+            <h2>
+                Checkbox
+            </h2>
+            <label>
+                <h3>Marcar todos</h3>
+                <input type="checkbox" name="MarcarTodos" id="all" onclick="allCheckbox()">
+            </label>
+            <label>
+                Caixa 1
+                <input type="checkbox" name="Check1" id="1">
+            </label>
+            <label>
+                Caixa 2
+                <input type="checkbox" name="Check2" id="2">
+            </label>
+            <label>
+                Caixa 3
+                <input type="checkbox" name="Check3" id="3">
+            </label>
+            <h2>
+                Texto Simples (Máx. de 140 caracteres):
+            </h2>
+            <label>
+                <input type="text" maxlength="140" name="Descrição" id="dsc" placeholder="Escreva seu texto.."
+                    onkeyup="contaChar()">
+                <h3 id="cont">140</h3>
+                <h3>caracteres restantes.</h3>
+            </label>
+
+            <input class="btn" type="button" value="Limpar" onclick="limpar()">
+
+        </form>
+    </div>
+    <script type="text/javascript" src="/JavaScript/Exercicio2/formulario.js"></script>
+</body>
+
+</html>
